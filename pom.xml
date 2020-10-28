@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.com.animati</groupId>
+	<artifactId>SchoolAndTest</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>SchoolAndTest</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>central</id>
+			<url>http://central.maven.org/maven2/</url>
+		</repository>
+		<!-- <repository> -->
+		<!-- <id>central-artifactory</id> -->
+		<!-- <name>infopcas-repo-maven-releases</name> -->
+		<!-- <url>http://34.74.17.136/artifactory/infopacs-repo-maven</url> -->
+		<!-- </repository> -->
+		<repository>
+			<id>dcm4che</id>
+			<name>dcm4che Repository</name>
+			<url>http://www.dcm4che.org/maven2</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>dcm4che</groupId>
+			<artifactId>dcm4che-core</artifactId>
+			<version>2.0.29</version>
+		</dependency>
+	</dependencies>
+</project>
